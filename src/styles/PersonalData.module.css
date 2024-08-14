@@ -1,0 +1,69 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 25em;
+    max-height: 250px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    animation: rainbow-border 5s ease-in-out infinite;
+  }
+
+  @keyframes rainbow-border {
+    0% {
+      border-color: red;
+    }
+    15% {
+      border-color: orange;
+    }
+    30% {
+      border-color: yellow;
+    }
+    45% {
+      border-color: green;
+    }
+    60% {
+      border-color: blue;
+    }
+    75% {
+      border-color: indigo;
+    }
+    90% {
+      border-color: violet;
+    }
+    100% {
+      border-color: red;
+    }
+  }
+  
+  .rainbow-border {
+    padding: 10px; /* Space between border and content */
+    border: 5px solid; /* Initial border properties */
+    border-radius: 8px;
+    background: white;
+    animation: rainbow-border 5s linear infinite; /* Apply animation */
+  }
+  
+  
+  .heading {
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+  }
+  
+  .label {
+    margin-bottom: 10px;
+    font-weight: bold;
+    gap: 20px;
+  }
+  
+  .input {
+    padding: 8px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+ 
+  

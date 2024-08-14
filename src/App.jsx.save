@@ -1,0 +1,33 @@
+import { useState } from 'react'
+import reactLogo from './assets/react.svg'
+import viteLogo from '/vite.svg'
+import './App.css'
+import { personalData } from './personalData.jsx'
+
+function App() {
+  const [count, setCount] = useState(0)
+
+  return (
+
+
+c
+
+
+c
+
+
+c
+
+
+c
+ac
+c
+c
+    <>
+    <h1>hello world<h1>
+    <PersonalData/>
+    </>
+  )
+}
+
+export default App

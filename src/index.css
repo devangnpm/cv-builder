@@ -25,7 +25,7 @@ a:hover {
 body {
   margin: 0;
   display: flex;
-  min-width: 320px;
+  min-width: 100vw;
   min-height: 100vh;
   height:100%;
   width: 100%;
@@ -72,8 +72,7 @@ button:focus-visible {
 
 .form-container {
   display: flex;
-  border: 2px solid red;
   height: 55rem;
-  width: 50rem;
+  width: 60rem;
   margin-left: -950px;
 }

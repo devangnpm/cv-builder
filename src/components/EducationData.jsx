@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import styles from '../styles/EducationData.module.css';  // Ensure the path is correct
 
-function EducationData() {
+function EducationData( {setEducationInfo} ) {
   // State to manage form inputs
   const [study, setStudy] = useState('');
   const [institute, setInstitute] = useState('');
@@ -16,6 +16,23 @@ function EducationData() {
     console.log('Institute Name:', institute);
     console.log('Start Date:', startDate);
     console.log('End Date:', endDate);
+
+    //creating a education object with form data
+    const educationData = {
+      study,
+      institute,
+      startDate,
+      endDate,
+    }
+
+    // passing the newly information on click to the setter function in app.jsx
+    setEducationInfo(prevInfo => [...prevInfo,educationData]);
+
+    //clearing the form fiels after submission
+    setStudy('');
+    setInstitute('');
+    setStartDate('');
+    setEndDate('');
   };
 
   return (

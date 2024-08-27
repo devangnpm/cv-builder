@@ -1,0 +1,90 @@
+.resume {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ddd;
+    width: 850px;
+    height: 1000px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 30px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+.personalInfo {
+    margin-bottom: 25px;
+}
+
+.resumeName {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    color: #222;
+}
+
+.contactInfo {
+    font-size: 15px;
+    line-height: 1.6;
+    color:black;
+    background-color: lightgray;
+}
+
+.section {
+    margin-bottom: 25px;
+}
+
+.header {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: white;
+    background-color:black;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 5px;
+}
+
+.educationEntry,
+.experienceEntry {
+    margin-bottom: 20px;
+}
+
+.educationDate,
+.experienceDate {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: black;
+}
+
+.educationLocation,
+.experienceLocation {
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: black;
+}
+
+.educationInstitution,
+.experienceCompany {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: black;
+
+
+}
+
+.educationDegree,
+.experienceRole {
+    font-size: 14px;
+    font-style: italic;
+    margin-bottom: 5px;
+    color: black;
+}
+
+.experienceDescription {
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    color: black;
+}

@@ -25,11 +25,13 @@ a:hover {
 body {
   margin: 0;
   display: flex;
-  min-width: 100vw;
-  min-height: 100vh;
+  min-width: 100%;
+  min-height: 100%;
   height:100%;
   width: 100%;
-  overflow: hidden;
+  overflow-y: visible;
+  overflow-x: hidden;
+  background-color: #03001C;
 }
 
 h1 {
@@ -72,7 +74,8 @@ button:focus-visible {
 
 .form-container {
   display: flex;
-  height: 55rem;
-  width: 60rem;
-  margin-left: -950px;
+  height: 65rem;
+  width: 118rem;
+  margin-left: -300px;
 }
+
